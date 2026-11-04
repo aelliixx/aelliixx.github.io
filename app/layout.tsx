@@ -18,11 +18,11 @@ const plex = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aelliixx.com"),
-  title: "Donatas Mockus — full-stack web developer",
+  title: "Donatas Mockus",
   description:
-    "Donatas Mockus is a full-stack web developer and software engineer from Lithuania, building websites, MMO-RPGs and compilers with Next.js, TypeScript, Unreal Engine and C++.",
+    "Donatas Mockus is a full-stack web developer and software engineer from Lithuania, building websites, games, and compilers with Next.js, TypeScript, Unreal Engine and C++.",
   openGraph: {
-    title: "Donatas Mockus — full-stack web developer",
+    title: "Donatas Mockus",
     description:
       "Websites, MMO-RPGs and compilers, from Lithuania. Full-stack web developer, Unreal Engine game developer, C++ engineer.",
     url: "https://aelliixx.com",
