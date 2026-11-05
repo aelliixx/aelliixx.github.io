@@ -83,7 +83,7 @@ export default function Home() {
                     </p>
                     <div className="hero-actions">
                         <a href={`mailto:${email}`} className="btn">Email me</a>
-                        <a href="/resume.pdf" className="btn btn-quiet">Download résumé</a>
+                        <a href="#experience" className="btn btn-quiet">See résumé</a>
                     </div>
                 </section>
 
