@@ -55,7 +55,7 @@ export default function Home() {
             <a className="skip-link" href="#main">Skip to content</a>
 
             <header className="site-nav">
-                <Link href="/" className="handle mono">aelliixx</Link>
+                <a href="/#" className="handle mono">aelliixx</a>
                 <nav aria-label="Main">
                     {navLinks.map((l) => (
                         <a key={l.href} href={l.href}>{l.label}</a>
