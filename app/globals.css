@@ -56,6 +56,11 @@ html {
   }
 }
 
+/* Anchor targets clear the sticky navbar plus a little breathing room */
+[id] {
+  scroll-margin-top: calc(3.75rem + 1rem);
+}
+
 body {
   background: var(--bg);
   color: var(--ink);
@@ -1115,6 +1120,10 @@ strong {
 
 /* Navbar: wrap into two rows (handle + bead / links) on narrow screens */
 @media (max-width: 660px) {
+  [id] {
+    scroll-margin-top: calc(5.5rem + 0.75rem);
+  }
+
   .site-nav {
     height: auto;
     flex-wrap: wrap;
