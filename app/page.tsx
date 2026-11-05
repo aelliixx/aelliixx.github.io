@@ -1,20 +1,10 @@
-import Link from "next/link";
-import Image, {type StaticImageData} from "next/image";
+import Image from "next/image";
 
-import {
-    contactInfo,
-    experience,
-    games,
-    profile,
-    skills,
-    smallProjects,
-    softwareWorks,
-    webProjects,
-} from "./data";
+import type {GameProject} from "./data";
+import {contactInfo, experience, games, profile, skills, smallProjects, softwareWorks, webProjects,} from "./data";
 import ProjectIndex from "./project-index";
 import TechChips from "./tech-chips";
 import ThemeToggle from "./theme-toggle";
-import type {GameProject} from "./data";
 
 const email = contactInfo.email;
 
@@ -254,7 +244,7 @@ export default function Home() {
                     <div className="contact-links mono">
                         <a href={contactInfo.github}>github</a>
                         <a href={contactInfo.linkedin}>linkedin</a>
-                        <a href="/resume.pdf">résumé</a>
+                        <a href="https://resume.aelliixx.com/resume-web.pdf">résumé</a>
                     </div>
                 </section>
             </main>
